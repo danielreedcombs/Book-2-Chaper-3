@@ -72,7 +72,7 @@ function grill (currentObject) {
 	console.log(currentObject)
 
 	for(i =0; i < currentObject.length; i++){ 
-		if( currentObject[i].cooked === false){
+		if( currentObject[i].cooked === false ){
 		   
 		// Modify the food so that it is cooked
 		currentObject[i].cooked = true;
